@@ -11,20 +11,20 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || false,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "NIKKA-X3F9F1ILb#JyOs93JODndh5xE01ug0B7bPfhOXAJj7oMKhXs3XrqY",
+  SESSION_ID:process.env.SESSION_ID || "NIKKA-XaA0WlL5J#QlKSBpKvb8Toco9shsshPMmt04lH3G044sWkJ6lXJhA",
   LANG: process.env.LANG || "EN",
-  HANDLERS: process.env.PREFIX || '^[?]',
+  HANDLERS: process.env.PREFIX || '*',
   PRESCENCE: process.env.PRESCENCE || "typing",
   GREETINGS: process.env.GREETINGS || false,
   BRANCH: "main",
   WARN_COUNT: 3,
-  STICKER_DATA: process.env.STICKER_DATA || "king;haki",
+  STICKER_DATA: process.env.STICKER_DATA || "☯︎ᴇᴍᴍ ʏʏ✌︎💨",
   BOT_INFO: process.env.BOT_INFO || "ɴɪᴋᴋᴀ ᴍᴅ;ʜᴀᴋɪ;https://cdn.ironman.my.id/i/hvlui0.jpg",
   AUDIO_DATA: process.env.AUDIO_DATA || "ʜᴀᴋɪ;shaka;https://cdn.ironman.my.id/i/hvlui0.jpg",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
   PORT: process.env.PORT || 3000,
 
-  CAPTION: process.env.CAPTION || "shaka",
+  CAPTION: process.env.CAPTION || "☯︎ᴇᴍᴍ ʏʏ✌︎💨",
   WORK_TYPE: process.env.WORK_TYPE || "private",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
@@ -46,6 +46,6 @@ module.exports = {
         }),
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  SUDO: process.env.SUDO || "2349112171078,94703981512", // replace ur number
+  SUDO: process.env.SUDO || "2347053192517", // replace ur number
   IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
 };
